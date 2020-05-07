@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import Clock from "./components/Clock";
 
 const MainContainer = styled.div``;
 
-const ClockContainer = styled.div``;
+const LocationContainer = styled.div``;
 
 const FormContainer = styled.form``;
 
@@ -15,9 +16,7 @@ const App = () => {
       <LocationContainer>
         <span className="location"></span>
       </LocationContainer>
-      <ClockContainer>
-        <h1 className="clock-title"></h1>
-      </ClockContainer>
+      <Clock />
       <FormContainer>
         <input
           className="user-name"
